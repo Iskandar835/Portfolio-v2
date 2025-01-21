@@ -1,0 +1,39 @@
+header {
+   background-color: #1a0b2e;
+}
+
+.header-section {
+   display: flex;
+   justify-content: space-between;
+   max-width: 1225px;
+   height: 110px;
+   margin: 0 auto;
+   padding: 0 45px;
+}
+
+.header-img-container {
+   display: flex;
+   align-items: center;
+}
+
+.header-img-container img {
+   width: 120px;
+}
+
+.header-link-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 48%;
+}
+
+.header-link {
+   font-family: "Plus Jakarta Sans", sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   color: #ffffff;
+}
+
+.header-link:hover {
+   text-decoration: underline;
+}
