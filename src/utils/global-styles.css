@@ -1,3 +1,12 @@
+:root {
+   --primary-bg-color: #11071f;
+   --secondary-bg-color: #1a0b2e;
+   --first-font-family: "Poppins", sans-serif;
+   --secondary-font-family: "Plus Jakarta Sans", sans-serif;
+   --first-body-color: #ffffff;
+   --secondary-body-color: #9857d3;
+}
+
 body {
    margin: 0;
    padding: 0;
@@ -10,7 +19,9 @@ main {
    display: flex;
    justify-content: center;
    align-items: center;
-   max-width: 1440px;
+   max-width: 1225px;
+   margin: 0 auto;
+   padding: 0 45px;
 }
 
 a {
@@ -23,5 +34,9 @@ h3,
 h4,
 h5,
 h6 {
+   margin: 0;
+}
+
+p {
    margin: 0;
 }
