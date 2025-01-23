@@ -1,5 +1,5 @@
 header {
-   background-color: #1a0b2e;
+   background-color: var(--secondary-bg-color);
 }
 
 .header-section {
@@ -28,10 +28,10 @@ header {
 }
 
 .header-link {
-   font-family: "Plus Jakarta Sans", sans-serif;
+   font-family: var(--secondary-font-family);
    font-size: 20px;
    font-weight: 500;
-   color: #ffffff;
+   color: var(--primary-font-color);
 }
 
 .header-link:hover {

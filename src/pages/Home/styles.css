@@ -1,16 +1,42 @@
-.perso-and-pro-section {
-   width: 100%;
+.personnal-intro {
+   margin: 70px 0 0 0;
 }
-
-.professional-intro-section {
-   font-size: 22px;
+.name-container {
+   position: relative;
+   top: 35px;
+   left: 140px;
+   display: flex;
+   width: 45%;
 }
-
-.professional-intro-title h2 {
+.name {
+   position: relative;
+   top: 20px;
+   right: 15px;
+   font-family: var(--secondary-font-family);
+   font-size: 19px;
+}
+.avatar-and-text-container {
+   display: flex;
+}
+.avatar-and-text-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   line-height: 1.3;
+}
+.intro-titles {
    font-size: 50px;
    font-weight: 400;
 }
+.little-lines {
+   font-size: 11px;
+}
 
+.professional-intro {
+   margin-top: 90px;
+   font-size: 22px;
+}
 .professional-intro-text {
    margin: 65px 0 0 0;
+   line-height: 1.8;
 }
