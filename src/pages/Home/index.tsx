@@ -8,7 +8,7 @@ function Homepage() {
             <div className="name-container">
                <img src="/assets/arrow.png" alt="Image d'une flêche" />
                <p className="name">
-                  Hello ! I Am{" "}
+                  Bonjour ! Je suis{" "}
                   <span className="span-color">Sacha Vandermoeten</span>
                </p>
             </div>
@@ -18,26 +18,28 @@ function Homepage() {
                   <img src="/assets/avatar.png" alt="Image de l'avatar" />
                </div>
                <div className="avatar-and-text-content">
-                  <p>A Designer who</p>
+                  <p>Un développeur qui</p>
                   <h1 className="intro-titles">
-                     Judges a book <br />
-                     by it's <span className="span-color">cover</span>...
+                     Juge un livre <br />
+                     par sa <span className="span-color">couverture</span>...
                   </h1>
                   <p className="little-lines">
-                     Because if the cover does not impress you what else can ?
+                     Parce que si la couverture ne vous impressionne pas,
+                     qu'est-ce qui le fera ?
                   </p>
                </div>
             </div>
          </section>
          <section className="professional-intro">
-            <h2 className="intro-titles">I'm a Software Engineer.</h2>
-            <p>Currently, I'm a Software Engineer at Facebook,</p>
+            <h2 className="intro-titles">Je suis un Développeur Frontend.</h2>
+            <p>Actuellement, Je suis développeur frontend free-lance.</p>
+            {/*cette ligne sera remplacer par les contactS de maniere simple et epurée*/}
             <p className="professional-intro-text">
-               A self-taught UI/UX designer, functioning in the industry for 3+
-               years now. <br />
-               I make meaningful and delightful digital products that create an
-               equilibrium <br />
-               between user needs and business goals.
+               Développeur passionné, travaillant dans le secteur depuis plus de
+               2 ans maintenant. <br />
+               Je développe des produits numériques significatifs et agréables
+               qui apportent un équilibre <br />
+               entre les besoins des utilisateurs et les objectifs commerciaux.
             </p>
          </section>
       </main>
