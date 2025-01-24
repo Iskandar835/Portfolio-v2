@@ -18,6 +18,11 @@
 .avatar-and-text-container {
    display: flex;
 }
+.avatar-and-shadow {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .avatar-and-text-content {
    display: flex;
    flex-direction: column;

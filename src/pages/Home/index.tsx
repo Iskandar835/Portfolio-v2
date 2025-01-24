@@ -1,4 +1,5 @@
 import "./styles.css";
+import PurpleShadow from "../../components/PurpleShadow";
 
 function Homepage() {
    return (
@@ -12,7 +13,8 @@ function Homepage() {
                </p>
             </div>
             <div className="avatar-and-text-container">
-               <div>
+               <div className="avatar-and-shadow">
+                  <PurpleShadow />
                   <img src="/assets/avatar.png" alt="Image de l'avatar" />
                </div>
                <div className="avatar-and-text-content">
