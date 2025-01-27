@@ -14,7 +14,7 @@ function Homepage() {
             </div>
             <div className="avatar-and-text-container">
                <div className="avatar-and-shadow">
-                  <PurpleShadow />
+                  <PurpleShadow isLargeVersion={false} />
                   <img src="/assets/avatar.png" alt="Image de l'avatar" />
                </div>
                <div className="avatar-and-text-content">
@@ -42,6 +42,7 @@ function Homepage() {
                entre les besoins des utilisateurs et les objectifs commerciaux.
             </p>
          </section>
+         <section className="all-projects"></section>
       </main>
    );
 }

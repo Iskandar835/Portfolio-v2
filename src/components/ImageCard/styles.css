@@ -1,5 +1,6 @@
 .image-card-container {
    display: flex;
+   justify-content: end;
    align-items: flex-end;
    width: 565px;
    height: 330px;
@@ -10,7 +11,15 @@
 .image-card-container img {
    width: 92%;
    height: 91%;
-   border-radius: 0 15px 0 10px;
+   border-radius: 15px 0 10px 0;
 }
 
-/* Style completement identique avec la maquete  */
+/* style a ajouter pour pouvoir reverse sur le projet paire  */
+
+/* .image-card-container {
+   justify-content: start;
+} */
+
+/* .image-card-container img {
+   border-radius: 0 15px 0 10px;
+} */

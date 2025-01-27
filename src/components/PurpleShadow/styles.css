@@ -1,4 +1,4 @@
-.purlple-shadow-container {
+.purple-shadow-container {
    position: absolute;
    z-index: -1;
    display: flex;
@@ -8,6 +8,11 @@
    height: 430px;
    border-radius: 50%;
    filter: blur(20px);
+}
+
+.large-version {
+   width: 625px;
+   height: 700px;
 }
 
 .purple-shadow {

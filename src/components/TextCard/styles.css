@@ -2,8 +2,6 @@
    width: 585px;
    padding: 25px 35px;
    background: #ffffff12;
-   backdrop-filter: blur(25px);
+   backdrop-filter: blur(10px);
    border-radius: 15px;
 }
-
-/* Card identique a la maquette, peut etre revoir le background blur  */
