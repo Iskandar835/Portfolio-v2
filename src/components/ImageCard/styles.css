@@ -1,0 +1,16 @@
+.image-card-container {
+   display: flex;
+   align-items: flex-end;
+   width: 565px;
+   height: 330px;
+   background-color: #2b0b3a;
+   border-radius: 10px;
+}
+
+.image-card-container img {
+   width: 92%;
+   height: 91%;
+   border-radius: 0 15px 0 10px;
+}
+
+/* Style completement identique avec la maquete  */
