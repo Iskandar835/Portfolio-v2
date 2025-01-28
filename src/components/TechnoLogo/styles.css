@@ -1,0 +1,12 @@
+.logo-container {
+   display: grid;
+   place-items: center;
+   width: 50px;
+   height: 50px;
+   background-color: #251c31;
+   border-radius: 50%;
+}
+
+.logo-container img {
+   width: 50%;
+}
