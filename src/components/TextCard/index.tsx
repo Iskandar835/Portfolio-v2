@@ -1,14 +1,10 @@
+import { TextsType } from "../../typescript/TextsType";
 import "./styles.css";
 
-function TextCard() {
+function TextCard({ text }: TextsType) {
    return (
       <div className="text-card-container">
-         <p>
-            A web app for visualizing personalized Spotify data. View your top
-            artists, top tracks, recently played tracks, and detailed audio
-            information about each track. Create and save new playlists of
-            recommended tracks based on your existing playlists and more.
-         </p>
+         <p>{text}</p>
       </div>
    );
 }

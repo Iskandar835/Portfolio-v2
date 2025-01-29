@@ -1,9 +1,10 @@
+import { ImagesType } from "../../typescript/ImagesType";
 import "./styles.css";
 
-function ImageCard() {
+function ImageCard({ source, alt }: ImagesType) {
    return (
       <div className="image-card-container">
-         <img src="/assets/image-og.png" alt="Image du projet" />
+         <img src={source} alt={alt} />
       </div>
    );
 }

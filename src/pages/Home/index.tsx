@@ -1,5 +1,6 @@
 import "./styles.css";
 import PurpleShadow from "../../components/PurpleShadow";
+import Project from "../../components/Containers/Project";
 
 function Homepage() {
    return (
@@ -42,7 +43,9 @@ function Homepage() {
                entre les besoins des utilisateurs et les objectifs commerciaux.
             </p>
          </section>
-         <section className="all-projects"></section>
+         <section className="all-projects">
+            <Project />
+         </section>
       </main>
    );
 }
