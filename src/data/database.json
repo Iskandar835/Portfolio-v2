@@ -1,0 +1,92 @@
+{
+   "projects": [
+      {
+         "id": "1",
+         "date": "2025-01-17T12:00:00.744Z",
+         "name": "Oh My Food",
+         "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+         "picture": {
+            "path": "/assets/oh-my-food.png",
+            "alt": "Image du projet Oh My Food"
+         },
+         "technos": [
+            {
+               "id": "1",
+               "picture": "/assets/logo-react.png",
+               "alt": "Logo de react"
+            },
+            {
+               "id": "2",
+               "picture": "/assets/logo-sass.png",
+               "alt": "Logo de sass"
+            }
+         ]
+      },
+      {
+         "id": "2",
+         "date": "2025-01-03T12:00:00.744Z",
+         "name": "BEEBOX",
+         "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+         "picture": {
+            "path": "/assets/beebox.png",
+            "alt": "Image du projet BEEBOX"
+         },
+         "technos": [
+            {
+               "id": "1",
+               "picture": "/assets/logo-react.png",
+               "alt": "Logo de react"
+            },
+            {
+               "id": "2",
+               "picture": "/assets/logo-styled-components.png",
+               "alt": "Logo de styled components"
+            }
+         ]
+      },
+      {
+         "id": "3",
+         "date": "2024-11-28T12:00:00.744Z",
+         "name": "Portfolio, first version",
+         "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+         "picture": {
+            "path": "/assets/portfolio-v1.png",
+            "alt": "Image du projet Portfolio first version"
+         },
+         "technos": [
+            {
+               "id": "1",
+               "picture": "/assets/logo-react.png",
+               "alt": "Logo de react"
+            },
+            {
+               "id": "2",
+               "picture": "/assets/logo-styled-components.png",
+               "alt": "Logo de styled components"
+            }
+         ]
+      },
+      {
+         "id": "4",
+         "date": "2024-09-17T12:00:00.744Z",
+         "name": "Shaperz",
+         "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+         "picture": {
+            "path": "/assets/shaperz.png",
+            "alt": "Image du projet Shaperz"
+         },
+         "technos": [
+            {
+               "id": "1",
+               "picture": "/assets/logo-js.jpg",
+               "alt": "Logo de javaScript"
+            },
+            {
+               "id": "2",
+               "picture": "/assets/logo-sass.png",
+               "alt": "Logo de sass"
+            }
+         ]
+      }
+   ]
+}

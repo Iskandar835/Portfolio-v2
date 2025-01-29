@@ -41,15 +41,15 @@
 }
 
 /* style a ajouter pour pouvoir reverse sur le projet paire  */
-/* .project-article {
+/* .project-article-even {
    flex-direction: row-reverse;
 }
-.project-title {
+.project-title-even {
    text-align: right;
 }
-.project-techno {
+.project-techno-even {
    flex-direction: row-reverse;
 }
-.image-and-shadow {
+.image-and-shadow-even {
    right: 0; 
 }*/
