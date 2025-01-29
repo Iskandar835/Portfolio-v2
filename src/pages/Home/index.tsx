@@ -1,7 +1,13 @@
 import "./styles.css";
 import PurpleShadow from "../../components/PurpleShadow";
+import Project from "../../components/Containers/Project";
+import data from "../../data/database.json";
 
 function Homepage() {
+   const sortProjects = data?.projects.sort((pjtA, pjtB) =>
+      new Date(pjtA.date) > new Date(pjtB.date) ? -1 : 1
+   );
+
    return (
       <main>
          <section className="personnal-intro">
@@ -42,7 +48,11 @@ function Homepage() {
                entre les besoins des utilisateurs et les objectifs commerciaux.
             </p>
          </section>
-         <section className="all-projects"></section>
+         <section className="all-projects">
+            {sortProjects.map((item) => (
+               <Project key={item.id} project={item} />
+            ))}
+         </section>
       </main>
    );
 }

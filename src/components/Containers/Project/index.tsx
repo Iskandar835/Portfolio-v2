@@ -10,11 +10,17 @@ type ProjectType = {
 };
 
 function Project({ project }: ProjectType) {
+   const isoToNiceDisplay = (date: string): string => {
+      return new Date(date).toLocaleString(undefined, {
+         dateStyle: "long",
+      });
+   };
+
    return (
       <article className="project-article">
          <section>
             <div className="project-date-name">
-               <p className="project-date">{project.date}</p>
+               <p className="project-date">{isoToNiceDisplay(project.date)}</p>
                <h3 className="project-name">{project.name}</h3>
             </div>
             <TextCard text={project.story} />
