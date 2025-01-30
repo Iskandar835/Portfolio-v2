@@ -2,6 +2,7 @@ import "./styles.css";
 import data from "../../data/database.json";
 import PurpleShadow from "../../components/PurpleShadow";
 import Project from "../../components/Containers/Project";
+import WorkExperience from "../../components/Containers/WorkExperience";
 
 function Homepage() {
    const sortProjects = data?.projects.sort((pjtA, pjtB) =>
@@ -60,6 +61,9 @@ function Homepage() {
                   picture={item.picture}
                />
             ))}
+         </section>
+         <section>
+            <WorkExperience />
          </section>
       </main>
    );
