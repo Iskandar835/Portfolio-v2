@@ -1,7 +1,7 @@
 import "./styles.css";
+import data from "../../data/database.json";
 import PurpleShadow from "../../components/PurpleShadow";
 import Project from "../../components/Containers/Project";
-import data from "../../data/database.json";
 
 function Homepage() {
    const sortProjects = data?.projects.sort((pjtA, pjtB) =>
@@ -49,8 +49,16 @@ function Homepage() {
             </p>
          </section>
          <section className="all-projects">
-            {sortProjects.map((item) => (
-               <Project key={item.id} project={item} />
+            {sortProjects.map((item, index) => (
+               <Project
+                  key={item.id}
+                  indexIsEven={index % 2 === 0 ? true : false}
+                  date={item.date}
+                  title={item.name}
+                  story={item.story}
+                  technos={item.technos}
+                  picture={item.picture}
+               />
             ))}
          </section>
       </main>

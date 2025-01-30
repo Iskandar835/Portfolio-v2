@@ -1,4 +1,4 @@
 export type ImagesType = {
    source: string;
-   alt?: string;
+   alt: string;
 };

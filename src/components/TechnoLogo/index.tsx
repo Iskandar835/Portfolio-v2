@@ -1,10 +1,10 @@
 import { ImagesType } from "../../typescript/ImagesType";
 import "./styles.css";
 
-function TechnoLogo({ source }: ImagesType) {
+function TechnoLogo({ source, alt }: ImagesType) {
    return (
       <div className="logo-container">
-         <img src={source} alt="Logo de la technologie" />
+         <img src={source} alt={alt} />
       </div>
    );
 }

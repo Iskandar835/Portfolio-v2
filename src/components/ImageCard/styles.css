@@ -11,15 +11,6 @@
 .image-card-container img {
    width: 92%;
    height: 91%;
+   object-fit: cover;
    border-radius: 15px 0 10px 0;
 }
-
-/* style a ajouter pour pouvoir reverse sur le projet paire  */
-
-/* .image-card-container {
-   justify-content: start;
-} */
-
-/* .image-card-container img {
-   border-radius: 0 15px 0 10px;
-} */

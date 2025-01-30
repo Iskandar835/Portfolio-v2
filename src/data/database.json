@@ -6,7 +6,7 @@
          "name": "Portfolio, first version",
          "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
          "picture": {
-            "path": "/assets/portfolio-v1.png",
+            "source": "/assets/portfolio-v1.png",
             "alt": "Image du projet Portfolio first version"
          },
          "technos": [
@@ -28,7 +28,7 @@
          "name": "BEEBOX",
          "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
          "picture": {
-            "path": "/assets/beebox.png",
+            "source": "/assets/beebox.png",
             "alt": "Image du projet BEEBOX"
          },
          "technos": [
@@ -50,7 +50,7 @@
          "name": "Oh My Food",
          "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
          "picture": {
-            "path": "/assets/oh-my-food.png",
+            "source": "/assets/oh-my-food.png",
             "alt": "Image du projet Oh My Food"
          },
          "technos": [
@@ -72,7 +72,7 @@
          "name": "Shaperz",
          "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
          "picture": {
-            "path": "/assets/shaperz.png",
+            "source": "/assets/shaperz.png",
             "alt": "Image du projet Shaperz"
          },
          "technos": [

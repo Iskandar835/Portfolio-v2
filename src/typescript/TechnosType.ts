@@ -1,4 +1,5 @@
 export type TechnosType = {
-   id: string | number;
+   id: string;
    picture: string;
+   alt: string;
 };

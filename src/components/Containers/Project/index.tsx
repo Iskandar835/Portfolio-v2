@@ -1,15 +1,19 @@
 import "./styles.css";
+import { ProjectPropsType } from "../../../typescript/ProjectPropsType";
 import TextCard from "../../TextCard";
+import { TechnosType } from "../../../typescript/TechnosType";
+import TechnoLogo from "../../TechnoLogo";
 import PurpleShadow from "../../PurpleShadow";
 import ImageCard from "../../ImageCard";
-import TechnoLogo from "../../TechnoLogo";
-import { TechnosType } from "../../../typescript/TechnosType";
 
-type ProjectType = {
-   project: string | number;
-};
-
-function Project({ project }: ProjectType) {
+function Project({
+   indexIsEven,
+   date,
+   title,
+   story,
+   technos,
+   picture,
+}: ProjectPropsType) {
    const isoToNiceDisplay = (date: string): string => {
       return new Date(date).toLocaleString(undefined, {
          dateStyle: "long",
@@ -17,20 +21,26 @@ function Project({ project }: ProjectType) {
    };
 
    return (
-      <article className="project-article">
+      <article
+         className={indexIsEven ? "project-article" : "project-article-odd"}
+      >
          <section>
-            <div className="project-date-name">
-               <p className="project-date">{isoToNiceDisplay(project.date)}</p>
-               <h3 className="project-name">{project.name}</h3>
+            <div className="project-date-and-name">
+               <p className="project-date">{isoToNiceDisplay(date)}</p>
+               <h3 className="project-name">{title}</h3>
             </div>
-            <TextCard text={project.story} />
+            <TextCard text={story} />
             <div className="project-technos">
-               {project.technos.map((techno: TechnosType) => (
-                  <TechnoLogo key={techno.id} source={techno.picture} />
+               {technos.map((techno: TechnosType) => (
+                  <TechnoLogo
+                     key={techno.id}
+                     source={techno.picture}
+                     alt={techno.alt}
+                  />
                ))}
             </div>
          </section>
-         <section className="project-shadow-image">
+         <section className="project-shadow-and-image">
             <div className="project-shadows-container">
                <div>
                   <PurpleShadow isLargeVersion={true} />
@@ -39,10 +49,7 @@ function Project({ project }: ProjectType) {
                   <PurpleShadow isLargeVersion={true} />
                </div>
             </div>
-            <ImageCard
-               source={project.picture.path}
-               alt={project.picture.alt}
-            />
+            <ImageCard source={picture.source} alt={picture.alt} />
          </section>
       </article>
    );
