@@ -5,6 +5,7 @@ import Project from "../../components/Containers/Project";
 import WorkExperience from "../../components/Containers/WorkExperience";
 
 function Homepage() {
+   // surement la renommer car on va la réuse pour work exp
    const sortProjects = data?.projects.sort((pjtA, pjtB) =>
       new Date(pjtA.date) > new Date(pjtB.date) ? -1 : 1
    );
@@ -62,7 +63,8 @@ function Homepage() {
                />
             ))}
          </section>
-         <section>
+         <section className="all-work-experience">
+            <h2 className="section-titles">Expériences Professionnelles</h2>
             <WorkExperience />
          </section>
       </main>
