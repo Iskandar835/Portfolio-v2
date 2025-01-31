@@ -1,18 +1,16 @@
 import "./styles.css";
+import { WorkCardType } from "../../typescript/WorkCardType";
 import Button from "../Button";
 
-function WorkCard() {
+function WorkCard({ source, alt, title, story }: WorkCardType) {
    return (
       <article className="work-card-container">
-         <img src="/assets/i-work.png" alt="" />
+         <img src={source} alt={alt} />
          <div className="work-card-content">
-            <h3>CIB on the Mobile</h3>
-            <p className="little-lines">
-               Take your client onboard seamlessly by our amazing tool of
-               digital onboard process.
-            </p>
+            <h3>{title}</h3>
+            <p className="little-lines">{story}</p>
             <div className="work-card-btn-container">
-               <Button />
+               <Button content="LEARN MORE" />
             </div>
          </div>
       </article>
