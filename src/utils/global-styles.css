@@ -43,3 +43,13 @@ p {
 .span-color {
    color: var(--secondary-body-color);
 }
+
+.little-lines {
+   font-size: 11px;
+}
+
+.section-titles {
+   font-family: var(--secondary-font-family);
+   font-size: 40px;
+   font-weight: 500;
+}

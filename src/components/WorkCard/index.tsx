@@ -7,7 +7,7 @@ function WorkCard() {
          <img src="/assets/i-work.png" alt="" />
          <div className="work-card-content">
             <h3>CIB on the Mobile</h3>
-            <p>
+            <p className="little-lines">
                Take your client onboard seamlessly by our amazing tool of
                digital onboard process.
             </p>

@@ -41,10 +41,6 @@
    font-weight: 400;
 }
 
-.little-lines {
-   font-size: 11px;
-}
-
 .professional-intro {
    margin-top: 90px;
    font-size: 22px;
@@ -65,10 +61,4 @@
 
 .all-work-experience {
    margin: 280px 0 500px 0;
-}
-
-.section-titles {
-   font-family: var(--secondary-font-family);
-   font-size: 40px;
-   font-weight: 500;
 }
