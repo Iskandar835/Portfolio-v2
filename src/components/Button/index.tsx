@@ -1,9 +1,9 @@
 import "./styles.css";
 
-function Button() {
+function Button({ content }: { content: string }) {
    return (
       <>
-         <button className="btn">LEARN MORE</button>
+         <button className="btn">{content}</button>
       </>
    );
 }
