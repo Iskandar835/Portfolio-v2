@@ -88,5 +88,47 @@
             }
          ]
       }
+   ],
+   "works": [
+      {
+         "id": "mkjhd58e",
+         "date": "2021-09-17T12:00:00.744Z",
+         "name": "CIB one th Mobile",
+         "story": "Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+         "picture": {
+            "source": "/assets/work-4.png",
+            "alt": "Image première experience"
+         }
+      },
+      {
+         "id": "ttfqh53v",
+         "date": "2024-09-17T12:00:00.744Z",
+         "name": "CIB one th Mobile",
+         "story": "Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+         "picture": {
+            "source": "/assets/work-1.png",
+            "alt": "Image deuxieme experience"
+         }
+      },
+      {
+         "id": "mmatf85t",
+         "date": "2022-09-17T12:00:00.744Z",
+         "name": "CIB one th Mobile",
+         "story": "Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+         "picture": {
+            "source": "/assets/work-2.png",
+            "alt": "Image deuxieme experience"
+         }
+      },
+      {
+         "id": "dqdqy21b",
+         "date": "2023-09-17T12:00:00.744Z",
+         "name": "CIB one th Mobile",
+         "story": "Take your client onboard seamlessly by our amazing tool of digital onboard process.",
+         "picture": {
+            "source": "/assets/work-3.png",
+            "alt": "Image deuxieme experience"
+         }
+      }
    ]
 }
