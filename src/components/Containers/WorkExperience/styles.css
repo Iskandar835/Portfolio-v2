@@ -7,7 +7,9 @@
    /* pour media : wdth de la WorkCard 435px  */
 }
 .work-shadow-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    position: relative;
-   bottom: 545px;
-   left: 300px;
+   bottom: 200px;
 }
