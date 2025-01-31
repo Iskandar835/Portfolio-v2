@@ -1,0 +1,28 @@
+.work-card-container {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   /* width: 555px; */
+   height: 185px;
+   padding: 0 60px;
+   background: linear-gradient(
+      160deg,
+      rgba(37, 16, 67, 1) 52%,
+      rgba(56, 18, 109, 1) 71%
+   );
+   border-top: 4px solid var(--border-color);
+   border-radius: 15px;
+}
+
+.work-card-content h3 {
+   font-size: 26px;
+   font-weight: 600;
+}
+
+.work-card-content p {
+   font-size: 11px;
+}
+
+.work-card-btn-container {
+   margin-top: 10px;
+}
