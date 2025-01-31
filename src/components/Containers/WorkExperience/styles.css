@@ -1,0 +1,13 @@
+.all-work-card {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(2, 1fr);
+   gap: 20px;
+   margin-top: 55px;
+   /* pour media : wdth de la WorkCard 435px  */
+}
+.work-shadow-container {
+   position: relative;
+   bottom: 545px;
+   left: 300px;
+}
