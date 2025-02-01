@@ -3,8 +3,9 @@
       {
          "id": "lqpei86d",
          "date": "2024-11-28T12:00:00.744Z",
-         "name": "Portfolio, first version",
-         "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+         "name": "Portfolio-v1",
+         "href": "https://github.com/Iskandar835/Portfolio",
+         "story": "Ce portfolio est ma première vitrine en tant que développeur front-end. Il présente mes premiers projets, mes compétences et mon parcours. Une belle étape dans mon apprentissage et mon évolution dans le développement web !",
          "picture": {
             "source": "/assets/portfolio-v1.png",
             "alt": "Image du projet Portfolio first version"
@@ -26,7 +27,8 @@
          "id": "tvshd86t",
          "date": "2025-01-03T12:00:00.744Z",
          "name": "BEEBOX",
-         "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+         "href": "https://github.com/Iskandar835/BEEBOX",
+         "story": "Ce site vitrine permet de commander du miel en ligne. Simple et efficace, il met en avant les produits, leurs bienfaits et facilite la prise de commande depuis les réseaux sociaux. L’optimisation SEO et l’accessibilité web font partie intégrante de ce projet.",
          "picture": {
             "source": "/assets/beebox.png",
             "alt": "Image du projet BEEBOX"
@@ -48,7 +50,8 @@
          "id": "nbvqt85m",
          "date": "2025-01-17T12:00:00.744Z",
          "name": "Oh My Food",
-         "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+         "href": "https://github.com/Iskandar835/Oh-My-Food",
+         "story": "À l'origine développé en HTML et SASS, ce site permettait aux utilisateurs de visualiser des plats en ligne. J’ai réalisé une refonte avec React et SASS pour une meilleure expérience utilisateur et une navigation plus fluide et dynamique.",
          "picture": {
             "source": "/assets/oh-my-food.png",
             "alt": "Image du projet Oh My Food"
@@ -70,7 +73,8 @@
          "id": "azqes86g",
          "date": "2024-09-17T12:00:00.744Z",
          "name": "Shaperz",
-         "story": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+         "href": "https://github.com/Iskandar835/Shaperz",
+         "story": "L’un de mes premiers sites, dédié aux passionnés de surf. Il répertorie différents modèles de planches, leurs caractéristiques et conseils pour bien choisir en fonction des conditions et du niveau. Allez y faire un tour !",
          "picture": {
             "source": "/assets/shaperz.png",
             "alt": "Image du projet Shaperz"
@@ -78,7 +82,7 @@
          "technos": [
             {
                "id": "nbhgt59z",
-               "picture": "/assets/logo-js.jpg",
+               "picture": "/assets/logo-js.png",
                "alt": "Logo de javaScript"
             },
             {

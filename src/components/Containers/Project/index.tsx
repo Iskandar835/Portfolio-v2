@@ -10,6 +10,7 @@ function Project({
    indexIsEven,
    date,
    title,
+   href,
    story,
    technos,
    picture,
@@ -27,7 +28,12 @@ function Project({
          <section>
             <div className="project-date-and-name">
                <p className="project-date">{isoToNiceDisplay(date)}</p>
-               <h3 className="project-name">{title}</h3>
+               <h3 className="project-name">
+                  {title}{" "}
+                  <a href={href} target="_blank" className="project-link">
+                     <i className="fa-solid fa-link"></i>
+                  </a>
+               </h3>
             </div>
             <TextCard text={story} />
             <div className="project-technos">

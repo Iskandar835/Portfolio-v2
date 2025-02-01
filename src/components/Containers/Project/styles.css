@@ -14,8 +14,22 @@
 }
 
 .project-name {
+   display: flex;
    font-size: 34px;
    font-weight: 500;
+}
+
+.project-link {
+   display: flex;
+   align-items: center;
+   margin: 0 10px;
+   font-size: 25px;
+   color: var(--first-body-color);
+   animation: call-icon 2s ease-in-out infinite;
+}
+
+.project-link:hover {
+   animation: none;
 }
 
 .project-technos {
@@ -55,6 +69,10 @@
    text-align: right;
 }
 
+.project-article-odd .project-name {
+   flex-direction: row-reverse;
+}
+
 .project-article-odd .project-technos {
    justify-content: end;
 }
@@ -69,4 +87,26 @@
 
 .project-article-odd .image-card-container img {
    border-radius: 0 15px 0 10px;
+}
+
+/*****     ANIMATIONS     *****/
+@keyframes call-icon {
+   0% {
+      transform: translateY(0) scale(1);
+   }
+   10% {
+      transform: translateY(-2px) scale(1.2);
+   }
+   20% {
+      transform: translateY(0) scale(1);
+   }
+   60% {
+      transform: translateY(0) scale(1);
+   }
+   80% {
+      transform: translateY(0) scale(1);
+   }
+   100% {
+      transform: translateY(0) scale(1);
+   }
 }
