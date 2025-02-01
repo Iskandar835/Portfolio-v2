@@ -1,6 +1,7 @@
 import "./styles.css";
 import data from "../../data/database.json";
 import PurpleShadow from "../../components/PurpleShadow";
+import Tags from "../../components/Tags";
 import Project from "../../components/Containers/Project";
 import WorkExperience from "../../components/Containers/WorkExperience";
 
@@ -38,9 +39,23 @@ function Homepage() {
             </div>
          </section>
          <section className="professional-intro">
-            <h2 className="intro-titles">Je suis un Développeur Frontend.</h2>
-            <p>Actuellement, Je suis développeur frontend free-lance.</p>
-            {/*cette ligne sera remplacer par les contactS de maniere simple et epurée*/}
+            <h2 className="intro-titles">Je suis Développeur Frontend.</h2>
+            <p className="intro-tags">
+               Vous pouvez me contacter sur{" "}
+               <Tags
+                  href="https://www.linkedin.com/in/sacha-vandermoeten-57124631b/"
+                  content="LinkedIn"
+               />{" "}
+               ou en message direct sur{" "}
+               <Tags
+                  href="https://discordapp.com/users/1167449314218487818"
+                  content="Discord"
+               />
+               <br />
+               et découvrir mes projets sur{" "}
+               <Tags href="https://github.com/Iskandar835" content="Github" />
+            </p>
+
             <p className="professional-intro-text">
                Développeur passionné, travaillant dans le secteur depuis plus de
                2 ans maintenant. <br />
