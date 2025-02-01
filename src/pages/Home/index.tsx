@@ -64,20 +64,24 @@ function Homepage() {
                entre les besoins des utilisateurs et les objectifs commerciaux.
             </p>
          </section>
-         <section className="all-projects">
-            {sortProjects.map((item, index) => (
-               <Project
-                  key={item.id}
-                  indexIsEven={index % 2 === 0 ? true : false}
-                  date={item.date}
-                  title={item.name}
-                  story={item.story}
-                  technos={item.technos}
-                  picture={item.picture}
-               />
-            ))}
+         <section className="projects-section">
+            <h2 className="section-titles">Mes Projets</h2>
+            <div className="all-projects">
+               {sortProjects.map((item, index) => (
+                  <Project
+                     key={item.id}
+                     indexIsEven={index % 2 === 0 ? true : false}
+                     date={item.date}
+                     title={item.name}
+                     href={item.href}
+                     story={item.story}
+                     technos={item.technos}
+                     picture={item.picture}
+                  />
+               ))}
+            </div>
          </section>
-         <section className="all-work-experience">
+         <section className="work-experience-section">
             <h2 className="section-titles">Expériences Professionnelles</h2>
             <WorkExperience />
          </section>
