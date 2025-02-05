@@ -4,6 +4,7 @@ import PurpleShadow from "../../components/PurpleShadow";
 import Tags from "../../components/Tags";
 import Project from "../../components/Containers/Project";
 import WorkExperience from "../../components/Containers/WorkExperience";
+import Skills from "../../components/Containers/Skills";
 
 function Homepage() {
    const sortProjects = data?.projects.sort((pjtA, pjtB) =>
@@ -84,6 +85,9 @@ function Homepage() {
          <section className="work-experience-section">
             <h2 className="section-titles">Expériences Professionnelles</h2>
             <WorkExperience />
+         </section>
+         <section className="skills-section">
+            <Skills />
          </section>
       </main>
    );
