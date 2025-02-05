@@ -1,0 +1,38 @@
+.ring {
+   position: absolute;
+   height: 269px;
+   border: 2px solid var(--border-color);
+   border-radius: 50%;
+   mask-image: linear-gradient(
+      to bottom,
+      #00000000 0%,
+      #11071f00 15%,
+      #000000 30%
+   );
+}
+
+.small {
+   width: 695px;
+}
+
+.medium {
+   width: 765px;
+}
+
+.large {
+   width: 880px;
+}
+
+.circle {
+   width: 300px;
+   height: 220px;
+   border: none;
+   border-bottom: 2px solid var(--border-color);
+}
+
+.oval {
+   width: 300px;
+   height: 165px;
+   border: none;
+   border-bottom: 2px solid var(--border-color);
+}
