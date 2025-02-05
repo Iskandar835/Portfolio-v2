@@ -134,5 +134,37 @@
             "alt": "Image deuxieme experience"
          }
       }
+   ],
+   "skills": [
+      {
+         "id": "ye52mc",
+         "picture": "/assets/logo-html.png",
+         "alt": "Logo de HTML"
+      },
+      {
+         "id": "gq36lo",
+         "picture": "/assets/logo-css.png",
+         "alt": "Logo de CSS"
+      },
+      {
+         "id": "pm19qs",
+         "picture": "/assets/logo-js.png",
+         "alt": "Logo de javaScript"
+      },
+      {
+         "id": "na57yw",
+         "picture": "/assets/logo-react.png",
+         "alt": "Logo de react"
+      },
+      {
+         "id": "gt25bn",
+         "picture": "/assets/logo-redux.png",
+         "alt": "Logo de Redux"
+      },
+      {
+         "id": "xc98mp",
+         "picture": "/assets/logo-figma.png",
+         "alt": "Logo de Figma"
+      }
    ]
 }

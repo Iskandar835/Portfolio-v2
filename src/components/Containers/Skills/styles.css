@@ -1,0 +1,56 @@
+.title-and-skills {
+   text-align: center;
+}
+
+.title-and-skills h4 {
+   font-size: 24px;
+   font-weight: 500;
+}
+
+.all-skills {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin-top: 50px;
+}
+
+.saturn {
+   position: relative;
+   top: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo-and-two-rings {
+   position: relative;
+   bottom: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sv-container {
+   position: relative;
+   bottom: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   background: linear-gradient(
+      0deg,
+      rgba(120, 64, 173, 1) 0%,
+      var(--secondary-bg-color) 50%
+   );
+}
+
+.sv-container img {
+   width: 80%;
+}
+
+.saturn .purple-shadow-container {
+   width: 600px;
+   height: 280px;
+}
