@@ -1,0 +1,7 @@
+canvas {
+   position: relative;
+   z-index: -2;
+   height: 300px;
+   width: 360px;
+   border-radius: 0% 0% 33% 33% / 0% 0% 100% 100%;
+}
