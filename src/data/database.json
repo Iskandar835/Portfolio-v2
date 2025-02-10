@@ -166,5 +166,27 @@
          "picture": "/assets/logo-figma.png",
          "alt": "Logo de Figma"
       }
+   ],
+   "contact": [
+      {
+         "id": "lkkjs88m",
+         "href": "https://www.linkedin.com/in/sacha-vandermoeten-57124631b/",
+         "class": "fa-brands fa-linkedin-in"
+      },
+      {
+         "id": "ishga66j",
+         "href": "mailto:sachadu835@gmail.com",
+         "class": "fa-regular fa-envelope"
+      },
+      {
+         "id": "bchdg58p",
+         "href": "https://discordapp.com/users/1167449314218487818",
+         "class": "fa-brands fa-discord"
+      },
+      {
+         "id": "mqjat85s",
+         "href": "https://github.com/Iskandar835",
+         "class": "fa-brands fa-github"
+      }
    ]
 }
