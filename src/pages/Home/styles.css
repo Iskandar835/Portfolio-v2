@@ -72,5 +72,8 @@
 }
 
 .skills-section {
+   display: flex;
+   flex-direction: column;
+   gap: 300px;
    margin-top: 200px;
 }
