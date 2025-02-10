@@ -74,6 +74,6 @@
 .skills-section {
    display: flex;
    flex-direction: column;
-   gap: 300px;
+   align-items: center;
    margin-top: 200px;
 }

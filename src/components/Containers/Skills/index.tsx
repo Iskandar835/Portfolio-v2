@@ -1,6 +1,7 @@
 import "./styles.css";
 import data from "../../../data/database.json";
 import TechnoLogo from "../../TechnoLogo";
+import Matrix from "../Matrix";
 import Ring from "../../Ring";
 import PurpleShadow from "../../PurpleShadow";
 
@@ -9,11 +10,12 @@ function Skills() {
       <>
          <section className="title-and-skills">
             <h4>
-               I'm currently looking to join a{" "}
-               <span className="span-color">cross-functional</span> team
+               Je maîtrise les technologies modernes du{" "}
+               <span className="span-color">développement web</span>.
             </h4>
             <p>
-               that values improving people's lives through accessible design
+               Je les mets au service d’un écosystème front-end performant et
+               accessible.
             </p>
             <div className="all-skills">
                {data.skills.map((skill) => (
@@ -25,7 +27,7 @@ function Skills() {
                ))}
             </div>
          </section>
-         {/* Ici doit venir le style qui va relier les skills avec saturn  */}
+         <Matrix />
          <div className="saturn">
             <div className="logo-and-two-rings">
                <div className="sv-container">
