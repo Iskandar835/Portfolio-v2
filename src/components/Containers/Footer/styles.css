@@ -1,0 +1,28 @@
+footer {
+   max-width: 1225px;
+   margin: 300px auto 80px auto;
+}
+
+.footer-title {
+   font-family: var(--secondary-font-family);
+   font-size: 33px;
+   font-weight: 500;
+}
+
+.footer-text {
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   margin: 90px 0 60px 0;
+   width: 70%;
+}
+
+.contact-container {
+   display: flex;
+   gap: 30px;
+}
+
+.contact-container i {
+   font-size: 25px;
+   color: #fff;
+}
