@@ -5,6 +5,7 @@ import "./utils/global-styles.css";
 import Header from "./components/Containers/Header";
 import Homepage from "./pages/Home";
 import AboutPage from "./pages/About";
+import Footer from "./components/Containers/Footer";
 
 createRoot(document.getElementById("root")!).render(
    <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById("root")!).render(
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<AboutPage />} />
          </Routes>
+         <Footer />
       </Router>
    </StrictMode>
 );
