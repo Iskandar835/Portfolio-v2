@@ -25,7 +25,7 @@ function Project({
       <article
          className={indexIsEven ? "project-article" : "project-article-odd"}
       >
-         <section>
+         <section className="project-description">
             <div className="project-date-and-name">
                <p className="project-date">{isoToNiceDisplay(date)}</p>
                <h3 className="project-name">
