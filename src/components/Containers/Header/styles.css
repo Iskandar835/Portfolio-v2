@@ -27,6 +27,10 @@ header {
    width: 48%;
 }
 
+.current-page {
+   text-decoration: underline;
+}
+
 .header-link {
    font-family: var(--secondary-font-family);
    font-size: 20px;

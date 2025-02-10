@@ -1,7 +1,11 @@
-import { Link } from "react-router";
 import "./styles.css";
+import { useLocation } from "react-router";
+import { Link } from "react-router";
+import { scrollToSection } from "../../../utils/scrollToSection";
 
 function Header() {
+   const { pathname } = useLocation();
+
    return (
       <header>
          <section className="header-section">
@@ -12,15 +16,34 @@ function Header() {
                />
             </div>
             <nav className="header-link-container">
-               <Link className="header-link" to="/">
+               <Link
+                  className={
+                     pathname === "/"
+                        ? "header-link current-page"
+                        : "header-link"
+                  }
+                  to="/"
+               >
                   Accueil
                </Link>
-               <Link className="header-link" to="/apropos">
+               <Link
+                  className={
+                     pathname === "/apropos"
+                        ? "header-link current-page"
+                        : "header-link"
+                  }
+                  to="/apropos"
+               >
                   À propos
                </Link>
-               <Link className="header-link" to="#contact">
+               <a
+                  className="header-link"
+                  onClick={() => {
+                     scrollToSection("contact");
+                  }}
+               >
                   Contact
-               </Link>
+               </a>
             </nav>
          </section>
       </header>
