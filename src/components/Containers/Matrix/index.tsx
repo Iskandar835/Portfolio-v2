@@ -11,8 +11,8 @@ function Matrix() {
       const ctx = canvas.getContext("2d");
       if (!ctx) return;
 
-      const canvasWidth = 580;
-      const canvasHeight = 350;
+      const canvasWidth = 530;
+      const canvasHeight = 320;
       canvas.width = canvasWidth;
       canvas.height = canvasHeight;
 
@@ -22,7 +22,8 @@ function Matrix() {
       const drops = new Array(columns).fill(1);
 
       const draw = () => {
-         ctx.fillStyle = "rgba(17, 7, 31, 0.3)";
+         ctx.fillStyle = "rgba(17, 7, 31, 0.4)";
+         // sur 0.4 minimum
          ctx.fillRect(0, 0, canvas.width, canvas.height);
 
          for (let i = 0; i < drops.length; i++) {
@@ -37,7 +38,7 @@ function Matrix() {
          }
       };
 
-      const interval = setInterval(draw, 70);
+      const interval = setInterval(draw, 80);
 
       return () => {
          clearInterval(interval);
