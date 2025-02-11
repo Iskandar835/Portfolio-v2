@@ -28,11 +28,11 @@ function Header() {
                </Link>
                <Link
                   className={
-                     pathname === "/apropos"
+                     pathname === "/about"
                         ? "header-link current-page"
                         : "header-link"
                   }
-                  to="/apropos"
+                  to="/about"
                >
                   À propos
                </Link>
