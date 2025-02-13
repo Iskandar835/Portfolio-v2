@@ -1,9 +1,10 @@
+import { ButtonType } from "../../typescript/ButtonType";
 import "./styles.css";
 
-function Button({ content }: { content: string }) {
+function Button({ className, content }: ButtonType) {
    return (
       <>
-         <button className="btn">{content}</button>
+         <button className={`btn ${className}`}>{content}</button>
       </>
    );
 }
