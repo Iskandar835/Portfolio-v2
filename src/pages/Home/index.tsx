@@ -83,7 +83,7 @@ function Homepage() {
             </div>
          </section>
          <section className="work-experience-section">
-            <h2 className="section-titles">Expériences Professionnelles</h2>
+            <h2 className="section-titles">Comment puis-je vous aider ?</h2>
             <WorkExperience />
          </section>
          <section className="skills-section">
