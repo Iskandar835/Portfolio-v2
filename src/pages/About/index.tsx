@@ -2,6 +2,13 @@ import Button from "../../components/Button";
 import "./styles.css";
 
 function AboutPage() {
+   const goToLinkedIn = () => {
+      window.open(
+         "https://www.linkedin.com/in/sacha-vandermoeten-57124631b/",
+         "_blank"
+      );
+   };
+
    return (
       <main>
          <section className="about-text-and-img">
@@ -20,7 +27,11 @@ function AboutPage() {
                   attention particulière à l’optimisation, l’accessibilité et la
                   performance.
                </p>
-               <Button className="btn-about" content="EN SAVOIR PLUS" />
+               <Button
+                  className="btn-about"
+                  onclick={goToLinkedIn}
+                  content="EN SAVOIR PLUS"
+               />
             </div>
             <div className="about-img-section">
                <img
