@@ -14,7 +14,7 @@ function AboutPage() {
                   sympathize ten uncommonly occasional assistance sufficient
                   not.
                </p>
-               <Button content="EXPLORE MORE" />
+               <Button className="btn-about" content="EXPLORE MORE" />
             </div>
             <div className="about-img-section">
                <img
