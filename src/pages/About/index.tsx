@@ -6,15 +6,21 @@ function AboutPage() {
       <main>
          <section className="about-text-and-img">
             <div className="about-text-section">
-               <h1>ABOUT US</h1>
+               <h1>À PROPOS</h1>
                <p className="about-description">
-                  From they fine john he give of rich he. They age and draw mrs
-                  like. Improving end distrusts may instantly was household
-                  applauded incommode. Why kept very ever home mrs. Considered
-                  sympathize ten uncommonly occasional assistance sufficient
-                  not.
+                  Après avoir découvert ma passion pour le développement web,
+                  j’ai décidé de me former sérieusement. Aujourd’hui, je
+                  maîtrise des technologies modernes, à la pointe du web et de
+                  son écosystème. J’ai réalisé plusieurs projets en solo et en
+                  équipe, toujours avec l’envie d’apprendre et de m’améliorer.
+                  Pour moi, un bon site web ne se limite pas à du code
+                  fonctionnel. Il s’agit de construire des expériences fluides
+                  et agréables pour les utilisateurs, dans un monde où tout se
+                  digitalise de plus en plus. C’est pourquoi j’accorde une
+                  attention particulière à l’optimisation, l’accessibilité et la
+                  performance.
                </p>
-               <Button className="btn-about" content="EXPLORE MORE" />
+               <Button className="btn-about" content="EN SAVOIR PLUS" />
             </div>
             <div className="about-img-section">
                <img
@@ -34,7 +40,7 @@ function AboutPage() {
                />
                <div className="xp-indicator">
                   <p className="all-years">
-                     2+ <span className="time-marker">Years</span>
+                     2+ <span className="time-marker">Ans</span>
                   </p>
                </div>
             </div>
