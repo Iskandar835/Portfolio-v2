@@ -3,7 +3,7 @@ import data from "../../data/database.json";
 import PurpleShadow from "../../components/PurpleShadow";
 import Tags from "../../components/Tags";
 import Project from "../../components/Containers/Project";
-import WorkExperience from "../../components/Containers/WorkExperience";
+import Help from "../../components/Containers/Help";
 import Skills from "../../components/Containers/Skills";
 
 function Homepage() {
@@ -82,9 +82,9 @@ function Homepage() {
                ))}
             </div>
          </section>
-         <section className="work-experience-section">
+         <section className="help-section">
             <h2 className="section-titles">Comment puis-je vous aider ?</h2>
-            <WorkExperience />
+            <Help />
          </section>
          <section className="skills-section">
             <Skills />
