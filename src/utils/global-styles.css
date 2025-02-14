@@ -13,7 +13,7 @@ body {
    margin: 0;
    padding: 0;
    font-family: var(--first-font-family);
-   font-size: 18px;
+   font-size: 1.12rem;
    color: var(--first-body-color);
    background-color: var(--primary-bg-color);
    overflow-x: hidden;
@@ -48,11 +48,11 @@ p {
 }
 
 .little-lines {
-   font-size: 11px;
+   font-size: 0.68rem;
 }
 
 .section-titles {
    font-family: var(--secondary-font-family);
-   font-size: 40px;
+   font-size: 2.5rem;
    font-weight: 500;
 }

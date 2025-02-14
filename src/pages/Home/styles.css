@@ -15,7 +15,7 @@
    top: 20px;
    right: 15px;
    font-family: var(--secondary-font-family);
-   font-size: 19px;
+   font-size: 1.18rem;
    white-space: nowrap;
 }
 
@@ -37,13 +37,13 @@
 }
 
 .intro-titles {
-   font-size: 50px;
+   font-size: 3.12rem;
    font-weight: 400;
 }
 
 .professional-intro {
    margin-top: 90px;
-   font-size: 22px;
+   font-size: 1.37rem;
 }
 
 .intro-tags {
