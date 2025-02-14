@@ -40,12 +40,12 @@ function AboutPage() {
                   className="first-img-about"
                />
                <img
-                  src="/assets/developer-drawing.jpg"
+                  src="/assets/programming.jpg"
                   alt="Dessin d'un developpeur"
                   className="second-img-about"
                />
                <img
-                  src="/assets/programming.jpg"
+                  src="/assets/developer-drawing.jpg"
                   alt="Image de programmation"
                   className="third-img-about"
                />
