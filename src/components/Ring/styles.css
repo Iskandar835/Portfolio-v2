@@ -36,3 +36,19 @@
    border: none;
    border-bottom: 2px solid var(--border-color);
 }
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 1024px) {
+   .small {
+      width: 545px;
+   }
+
+   .medium {
+      width: 615px;
+   }
+
+   .large {
+      width: 730px;
+   }
+}
