@@ -4,7 +4,6 @@
    grid-template-rows: repeat(2, 1fr);
    gap: 20px;
    margin-top: 55px;
-   /* pour media : wdth de la WorkCard 435px  */
 }
 
 .help-shadow-container {
@@ -13,4 +12,18 @@
    align-items: center;
    position: relative;
    bottom: 200px;
+}
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 1024px) {
+   .all-help-card {
+      grid-template-columns: 1fr;
+      gap: 35px;
+      margin-top: 85px;
+   }
+
+   .help-shadow-container {
+      display: none;
+   }
 }
