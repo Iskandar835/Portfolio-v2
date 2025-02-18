@@ -77,3 +77,24 @@
    align-items: center;
    margin-top: 200px;
 }
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 1024px) {
+   .intro-titles {
+      font-size: 2.3rem;
+   }
+
+   .professional-intro {
+      text-align: center;
+      font-size: 1.15rem;
+   }
+
+   .intro-tags {
+      margin-top: 25px;
+   }
+
+   .help-section {
+      margin-top: 220px;
+   }
+}
