@@ -53,3 +53,12 @@
    padding: 15px 45px;
    font-size: 0.95rem;
 }
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 768px) {
+   .btn {
+      padding: 8px 15px;
+      font-size: 0.6rem;
+   }
+}
