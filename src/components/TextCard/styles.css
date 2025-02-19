@@ -1,7 +1,16 @@
 .text-card-container {
-   width: 90%;
+   width: calc(100% - 70px);
    padding: 25px 35px;
    background: #ffffff12;
    backdrop-filter: blur(10px);
    border-radius: 15px;
+}
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 768px) {
+   .text-card-container {
+      width: calc(100% - 50px);
+      padding: 20px 25px;
+   }
 }

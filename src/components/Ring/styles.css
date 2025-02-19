@@ -52,3 +52,31 @@
       width: 730px;
    }
 }
+
+@media (width <= 768px) {
+   .ring {
+      height: 180px;
+   }
+
+   .small {
+      width: 75%;
+   }
+
+   .medium {
+      width: 83%;
+   }
+
+   .large {
+      width: 95%;
+   }
+
+   .circle {
+      width: 180px;
+      height: 150px;
+   }
+
+   .oval {
+      width: 180px;
+      height: 115px;
+   }
+}

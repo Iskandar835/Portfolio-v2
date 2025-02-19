@@ -53,3 +53,33 @@
    width: 600px;
    height: 280px;
 }
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 768px) {
+   .title-and-skills h4 {
+      font-size: 1.2rem;
+   }
+
+   .all-skills {
+      gap: 10px;
+   }
+
+   .logo-and-two-rings {
+      bottom: 20px;
+   }
+
+   .sv-container {
+      width: 130px;
+      height: 130px;
+   }
+
+   .sv-container img {
+      width: 70%;
+   }
+
+   .saturn .purple-shadow-container {
+      width: 300px;
+      height: 200px;
+   }
+}

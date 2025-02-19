@@ -41,3 +41,26 @@ header {
 .header-link:hover {
    text-decoration: underline;
 }
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 768px) {
+   .header-section {
+      height: 75px;
+      padding: 0 15px;
+   }
+
+   .header-img-container img {
+      width: 80px;
+   }
+
+   .header-link-container {
+      justify-content: initial;
+      gap: 15px;
+      width: initial;
+   }
+
+   .header-link {
+      font-size: 0.9rem;
+   }
+}

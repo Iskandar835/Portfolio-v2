@@ -21,3 +21,17 @@
    background: radial-gradient(circle, #ffffff 1%, #763cac 5%, #320f854d 60%);
    border-radius: 50%;
 }
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 768px) {
+   .purple-shadow-container {
+      width: 200px;
+      height: 250px;
+   }
+
+   .large-version {
+      width: 100%;
+      height: 350px;
+   }
+}

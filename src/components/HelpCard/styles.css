@@ -2,7 +2,6 @@
    display: flex;
    align-items: center;
    gap: 20px;
-   /* width: 555px; */
    height: 185px;
    padding: 0 60px;
    background: linear-gradient(
@@ -23,4 +22,21 @@
 
 .help-card-btn-container {
    margin-top: 10px;
+}
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 768px) {
+   .help-card-container {
+      height: 155px;
+      padding: 0 15px;
+   }
+
+   .help-card-container img {
+      width: 80px;
+   }
+
+   .help-card-content h3 {
+      font-size: 1.1rem;
+   }
 }

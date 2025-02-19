@@ -98,3 +98,61 @@
       margin-top: 220px;
    }
 }
+
+@media (width <= 768px) {
+   .name-container {
+      top: 15px;
+      left: 75px;
+      width: 80%;
+   }
+
+   .name-container img {
+      width: 90px;
+   }
+
+   .name {
+      top: 15px;
+      right: 10px;
+      font-size: 1rem;
+      white-space: unset;
+   }
+
+   .avatar-and-shadow img {
+      width: 150px;
+   }
+
+   .intro-titles {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+   }
+
+   .professional-intro {
+      font-size: 1rem;
+   }
+
+   .intro-tags {
+      line-height: 2;
+   }
+
+   .professional-intro-text {
+      margin-top: 40px;
+      line-height: initial;
+   }
+
+   .projects-section {
+      margin-top: 160px;
+   }
+
+   .all-projects {
+      gap: 160px;
+      margin-top: 80px;
+   }
+
+   .help-section {
+      margin-top: 160px;
+   }
+
+   .skills-section {
+      margin-top: 160px;
+   }
+}

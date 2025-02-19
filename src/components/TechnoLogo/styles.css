@@ -10,3 +10,12 @@
 .logo-container img {
    width: 60%;
 }
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 768px) {
+   .logo-container {
+      width: 40px;
+      height: 40px;
+   }
+}
