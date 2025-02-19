@@ -17,8 +17,7 @@ function Homepage() {
             <div className="name-container">
                <img src="/assets/arrow.png" alt="Image d'une flêche" />
                <p className="name">
-                  Bonjour ! Je suis{" "}
-                  <span className="span-color">Sacha Vandermoeten</span>
+                  Je suis <span className="span-color">Sacha Vandermoeten</span>
                </p>
             </div>
             <div className="avatar-and-text-container">
