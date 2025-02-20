@@ -1,10 +1,11 @@
 import "./styles.css";
 import { HelpCardType } from "../../typescript/HelpCardType";
+import data from "../../data/database.json";
 import Button from "../Button";
 
 function HelpCard({ source, alt, title, story }: HelpCardType) {
    const sendEmail = () => {
-      window.location.href = "mailto:contact@example.com";
+      window.location.href = data.contact[1].href;
    };
 
    return (
