@@ -2,6 +2,7 @@
    width: calc(100% - 70px);
    padding: 25px 35px;
    background: #ffffff12;
+   -webkit-backdrop-filter: blur(10px);
    backdrop-filter: blur(10px);
    border-radius: 15px;
 }
