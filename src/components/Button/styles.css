@@ -61,4 +61,9 @@
       padding: 8px 15px;
       font-size: 0.6rem;
    }
+
+   .btn-about {
+      padding: 10px 25px;
+      font-size: 0.8rem;
+   }
 }
