@@ -4,10 +4,14 @@ footer {
    padding: 0 45px;
 }
 
-.footer-title {
-   font-family: var(--secondary-font-family);
-   font-size: 2.06rem;
-   font-weight: 500;
+.footer-lines {
+   width: 100%;
+   margin: 0 auto 80px auto;
+   height: 2px;
+   background-color: var(--border-color);
+   box-shadow: 0 0 10px var(--border-color), 0 0 20px var(--border-color),
+      0 0 40px var(--border-color);
+   border-radius: 2px;
 }
 
 .footer-text {
