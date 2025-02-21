@@ -14,7 +14,6 @@
    position: relative;
    top: 20px;
    right: 15px;
-   font-family: var(--secondary-font-family);
    font-size: 1.18rem;
    white-space: nowrap;
 }
@@ -38,7 +37,7 @@
 
 .intro-titles {
    font-size: 3.12rem;
-   font-weight: 400;
+   font-weight: 500;
 }
 
 .professional-intro {
