@@ -9,19 +9,14 @@
 }
 
 body {
-   margin: 0;
-   padding: 0;
+   max-width: 1225px;
+   margin: 0 auto;
+   padding: 0 45px;
    font-family: var(--first-font-family);
    font-size: 1.12rem;
    color: var(--first-body-color);
    background-color: var(--primary-bg-color);
    overflow-x: hidden;
-}
-
-main {
-   max-width: 1225px;
-   margin: 0 auto;
-   padding: 0 45px;
 }
 
 a {
@@ -65,11 +60,8 @@ p {
 
 @media (width <= 768px) {
    body {
-      font-size: 1rem;
-   }
-
-   main {
       padding: 0 20px;
+      font-size: 1rem;
    }
 
    .little-lines {
