@@ -2,7 +2,6 @@
    --primary-bg-color: #11071f;
    --secondary-bg-color: #1a0b2e;
    --first-font-family: "Poppins", sans-serif;
-   --secondary-font-family: "Plus Jakarta Sans", sans-serif;
    --first-body-color: #ffffff;
    --secondary-body-color: #9857d3;
    --border-color: #693b93;
@@ -52,9 +51,8 @@ p {
 }
 
 .section-titles {
-   font-family: var(--secondary-font-family);
    font-size: 2.5rem;
-   font-weight: 500;
+   font-weight: 700;
 }
 
 /******     MEDIA QUERIES     ******/
@@ -79,7 +77,8 @@ p {
    }
 
    .section-titles {
-      font-size: 1.3rem;
+      font-size: 1.8rem;
+      text-align: center;
    }
 }
 
