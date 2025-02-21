@@ -5,7 +5,8 @@ import { ContactType } from "../../../typescript/ContactType";
 function Footer() {
    return (
       <footer>
-         <h3 className="footer-title">Contact</h3>
+         <div className="footer-lines"></div>
+         <h3 className="section-titles">CONTACT</h3>
          <div className="footer-text">
             <p>
                Chaque ligne de code est une opportunité de développer, d’innover

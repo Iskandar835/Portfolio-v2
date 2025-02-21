@@ -65,7 +65,7 @@ function Homepage() {
             </p>
          </section>
          <section className="projects-section">
-            <h2 className="section-titles">Mes Projets</h2>
+            <h2 className="section-titles">MES PROJETS</h2>
             <div className="all-projects">
                {sortProjects.map((item, index) => (
                   <Project
@@ -82,7 +82,7 @@ function Homepage() {
             </div>
          </section>
          <section className="help-section">
-            <h2 className="section-titles">Comment puis-je vous aider ?</h2>
+            <h2 className="section-titles">PUIS-JE VOUS AIDER ?</h2>
             <Help />
          </section>
          <section className="skills-section">

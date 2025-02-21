@@ -13,7 +13,7 @@ function AboutPage() {
       <main>
          <section className="about-text-and-img">
             <div className="about-text-section">
-               <h1>À PROPOS</h1>
+               <h1 className="section-titles">À PROPOS</h1>
                <p className="about-description">
                   Après avoir découvert ma passion pour le développement web,
                   j’ai décidé de me former sérieusement. Aujourd’hui, je
