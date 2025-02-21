@@ -2,7 +2,7 @@
    display: flex;
    animation: appear-from-bottom;
    animation-timeline: view();
-   animation-range: cover -20% cover 50%;
+   animation-range: cover -20% cover 45%;
 }
 
 .project-date-and-name {
@@ -63,7 +63,7 @@
    flex-direction: row-reverse;
    animation: appear-from-bottom;
    animation-timeline: view();
-   animation-range: cover -20% cover 50%;
+   animation-range: cover -20% cover 45%;
 }
 
 .project-article-odd section:first-of-type {
