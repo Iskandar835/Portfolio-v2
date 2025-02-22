@@ -7,7 +7,7 @@ header {
    animation: stickyHeader linear forwards;
    animation-timeline: view();
    animation-range-start: 100vh;
-   animation-range-end: 105vh;
+   animation-range-end: 120vh;
 }
 
 .header-section {
