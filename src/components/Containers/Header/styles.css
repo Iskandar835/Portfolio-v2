@@ -5,7 +5,7 @@ header {
    margin: 20px 0 0 0;
    padding: 15px 45px 25px 45px;
    animation: stickyHeader linear forwards;
-   animation-timeline: view();
+   animation-timeline: scroll();
    animation-range-start: 100vh;
    animation-range-end: 120vh;
 }
