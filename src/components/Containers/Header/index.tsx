@@ -1,13 +1,26 @@
 import "./styles.css";
 import { useLocation } from "react-router";
+import { useState, useEffect } from "react";
 import { Link } from "react-router";
 import { scrollToSection } from "../../../utils/scrollToSection";
 
 function Header() {
    const { pathname } = useLocation();
+   const [isScrolled, setIsScrolled] = useState(false);
+
+   useEffect(() => {
+      const handleScroll = () => {
+         if (window.scrollY > 75) {
+            setIsScrolled(true);
+         } else {
+            setIsScrolled(false);
+         }
+      };
+      window.addEventListener("scroll", handleScroll);
+   }, []);
 
    return (
-      <header>
+      <header className={isScrolled ? "scrolled" : ""}>
          <section className="header-section">
             <div className="header-img-container">
                <img

@@ -1,13 +1,23 @@
 header {
-   position: sticky;
    z-index: 10;
-   top: 20px;
    margin: 20px 0 0 0;
    padding: 15px 45px 25px 45px;
-   animation: stickyHeader linear forwards;
-   animation-timeline: scroll();
+   /* animation-timeline: scroll();
    animation-range-start: 100vh;
-   animation-range-end: 120vh;
+   animation-range-end: 120vh; */
+   transition: transform 180ms ease-out;
+}
+
+header.scrolled {
+   position: sticky;
+   top: 20px;
+   transform: scale(0.95);
+   background-color: #1a0b2e57;
+   -webkit-backdrop-filter: blur(15px);
+   backdrop-filter: blur(15px);
+   border: 1px solid var(--border-color);
+   border-radius: 50px;
+   /* animation: stickyHeader linear forwards; */
 }
 
 .header-section {
@@ -76,7 +86,7 @@ header {
 
 /******     ANIMATIONS     ******/
 
-@keyframes stickyHeader {
+/* @keyframes stickyHeader {
    100% {
       transform: scale(0.95);
       background-color: #1a0b2e81;
@@ -85,4 +95,4 @@ header {
       border: 1px solid var(--border-color);
       border-radius: 50px;
    }
-}
+} */
