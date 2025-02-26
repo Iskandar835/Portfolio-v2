@@ -27,7 +27,11 @@ footer {
 
 .contact-container i {
    font-size: 1.56rem;
-   color: #fff;
+   color: var(--first-body-color);
+}
+
+.contact-container i:hover {
+   color: var(--secondary-body-color);
 }
 
 /******     MEDIA QUERIES     ******/
