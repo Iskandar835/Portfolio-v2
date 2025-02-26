@@ -30,7 +30,7 @@
 
 @media (width <= 768px) {
    .all-help-card {
-      gap: 25px;
+      gap: 30px;
       margin-top: 50px;
    }
 }
