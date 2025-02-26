@@ -1,5 +1,6 @@
-import Button from "../../components/Button";
 import "./styles.css";
+import { motion } from "motion/react";
+import Button from "../../components/Button";
 
 function AboutPage() {
    const goToLinkedIn = () => {
@@ -12,7 +13,12 @@ function AboutPage() {
    return (
       <main>
          <section className="about-text-and-img">
-            <div className="about-text-section">
+            <motion.div
+               initial={{ opacity: 0, x: -100 }}
+               animate={{ opacity: 1, x: 0 }}
+               transition={{ duration: 0.8 }}
+               className="about-text-section"
+            >
                <h1 className="section-titles">À PROPOS</h1>
                <p className="about-description">
                   Après avoir découvert ma passion pour le développement web,
@@ -32,8 +38,13 @@ function AboutPage() {
                   onclick={goToLinkedIn}
                   content="EN SAVOIR PLUS"
                />
-            </div>
-            <div className="about-img-section">
+            </motion.div>
+            <motion.div
+               initial={{ opacity: 0, x: 100 }}
+               animate={{ opacity: 1, x: 0 }}
+               transition={{ duration: 0.5 }}
+               className="about-img-section"
+            >
                <img
                   src="/assets/datacenter.jpg"
                   alt="Image d'un data center"
@@ -54,7 +65,7 @@ function AboutPage() {
                      2+ <span className="time-marker">Ans</span>
                   </p>
                </div>
-            </div>
+            </motion.div>
          </section>
       </main>
    );
