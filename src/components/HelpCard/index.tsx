@@ -1,6 +1,7 @@
 import "./styles.css";
 import { HelpCardType } from "../../typescript/HelpCardType";
 import data from "../../data/database.json";
+import { motion } from "motion/react";
 import Button from "../Button";
 
 function HelpCard({ source, alt, title, story }: HelpCardType) {
@@ -9,7 +10,13 @@ function HelpCard({ source, alt, title, story }: HelpCardType) {
    };
 
    return (
-      <article className="help-card-container">
+      <motion.article
+         initial={{ opacity: 0, y: 100 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         transition={{ duration: 0.8 }}
+         viewport={{ once: true }}
+         className="help-card-container"
+      >
          <img src={source} alt={alt} />
          <div className="help-card-content">
             <h3>{title}</h3>
@@ -18,7 +25,7 @@ function HelpCard({ source, alt, title, story }: HelpCardType) {
                <Button content="ME CONTACTER" onclick={sendEmail} />
             </div>
          </div>
-      </article>
+      </motion.article>
    );
 }
 
