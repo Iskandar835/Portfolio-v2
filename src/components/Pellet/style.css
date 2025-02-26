@@ -1,0 +1,48 @@
+.pellet {
+   position: relative;
+   right: 5px;
+}
+
+.normal {
+   position: absolute;
+   width: 8px;
+   height: 8px;
+   background-color: var(--secondary-body-color);
+   border-radius: 100%;
+}
+
+.blink {
+   position: absolute;
+   width: 8px;
+   height: 8px;
+   background-color: var(--secondary-body-color);
+   border-radius: 100%;
+   animation: blink 1s ease-out infinite;
+}
+
+/******     MEDIA QUERIES     ******/
+
+@media (width <= 768px) {
+   .pellet {
+      right: 3px;
+   }
+
+   .normal,
+   .blink {
+      width: 5px;
+      height: 5px;
+   }
+}
+
+/*****     ANIMATIONS     *****/
+
+@keyframes blink {
+   from {
+      opacity: 1;
+      scale: 1;
+   }
+   to {
+      opacity: 0;
+      scale: 2.2;
+   }
+}
