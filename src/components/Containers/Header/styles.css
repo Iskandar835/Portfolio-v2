@@ -38,25 +38,28 @@ header.scrolled {
    width: 48%;
 }
 
-.current-page {
-   text-decoration: underline;
-}
-
 .header-link {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    font-size: 1.25rem;
    font-weight: 400;
    color: var(--primary-font-color);
 }
 
 .header-link:hover {
-   text-decoration: underline;
+   color: var(--secondary-body-color);
 }
 
 /******     MEDIA QUERIES     ******/
 
-@media (width <= 1024px) {
+@media (hover: none), (width <= 1024px) {
    .header-link {
       font-size: 1.1rem;
+   }
+
+   .header-link:hover {
+      color: inherit;
    }
 }
 

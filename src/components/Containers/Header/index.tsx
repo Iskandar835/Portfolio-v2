@@ -2,6 +2,7 @@ import "./styles.css";
 import { useLocation } from "react-router";
 import { useState, useEffect } from "react";
 import { Link } from "react-router";
+import Pellet from "../../Pellet";
 import { scrollToSection } from "../../../utils/scrollToSection";
 
 function Header() {
@@ -29,25 +30,13 @@ function Header() {
                />
             </div>
             <nav className="header-link-container">
-               <Link
-                  className={
-                     pathname === "/"
-                        ? "header-link current-page"
-                        : "header-link"
-                  }
-                  to="/"
-               >
+               <Link className="header-link" to="/">
                   Accueil
+                  {pathname === "/" && <Pellet />}
                </Link>
-               <Link
-                  className={
-                     pathname === "/about"
-                        ? "header-link current-page"
-                        : "header-link"
-                  }
-                  to="/about"
-               >
+               <Link className="header-link" to="/about">
                   À propos
+                  {pathname === "/about" && <Pellet />}
                </Link>
                <a
                   className="header-link"
