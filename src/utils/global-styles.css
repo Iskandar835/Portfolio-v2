@@ -69,14 +69,14 @@ p {
    }
 
    .section-titles {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       text-align: center;
    }
 }
 
 /*****     ANIMATIONS     *****/
 
-@keyframes appear-from-bottom {
+/* @keyframes appear-from-bottom {
    from {
       transform: scale(0);
       opacity: 0;
@@ -85,4 +85,4 @@ p {
       transform: scale(1);
       opacity: 1;
    }
-}
+} */
