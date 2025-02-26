@@ -26,6 +26,14 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-right: 20px;
+}
+
+.avatar {
+   width: 240px;
+   height: 240px;
+   border-radius: 100%;
+   object-fit: cover;
 }
 
 .avatar-and-text-content {
@@ -99,9 +107,14 @@
 }
 
 @media (width <= 768px) {
+   .personnal-intro {
+      display: grid;
+      place-items: center;
+   }
+
    .name-container {
-      top: 15px;
-      left: 75px;
+      top: 18px;
+      left: 48px;
       width: 80%;
    }
 
@@ -116,8 +129,13 @@
       white-space: unset;
    }
 
-   .avatar-and-shadow img {
-      width: 150px;
+   .avatar-and-shadow {
+      margin-right: 10px;
+   }
+
+   .avatar {
+      width: 120px;
+      height: 120px;
    }
 
    .intro-titles {

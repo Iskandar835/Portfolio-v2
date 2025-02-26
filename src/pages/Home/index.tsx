@@ -5,6 +5,7 @@ import Tags from "../../components/Tags";
 import Project from "../../components/Containers/Project";
 import Help from "../../components/Containers/Help";
 import Skills from "../../components/Containers/Skills";
+import { motion } from "motion/react";
 
 function Homepage() {
    const sortProjects = data?.projects.sort((pjtA, pjtB) =>
@@ -14,17 +15,31 @@ function Homepage() {
    return (
       <main>
          <section className="personnal-intro">
-            <div className="name-container">
+            <motion.div
+               initial={{ opacity: 0, y: -200 }}
+               animate={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.6 }}
+               className="name-container"
+            >
                <img src="/assets/arrow.png" alt="Image d'une flêche" />
                <p className="name">
                   Je suis <span className="span-color">Sacha Vandermoeten</span>
                </p>
-            </div>
+            </motion.div>
             <div className="avatar-and-text-container">
-               <div className="avatar-and-shadow">
+               <motion.div
+                  initial={{ opacity: 0, x: -200 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="avatar-and-shadow"
+               >
                   <PurpleShadow isLargeVersion={false} />
-                  <img src="/assets/avatar.png" alt="Image de l'avatar" />
-               </div>
+                  <img
+                     src="/assets/avatar.png"
+                     alt="Image de l'avatar"
+                     className="avatar"
+                  />
+               </motion.div>
                <div className="avatar-and-text-content">
                   <p>Un développeur qui</p>
                   <h1 className="intro-titles">
