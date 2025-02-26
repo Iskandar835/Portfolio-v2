@@ -1,5 +1,6 @@
 import "./styles.css";
 import { ProjectPropsType } from "../../../typescript/ProjectPropsType";
+import { motion } from "motion/react";
 import TextCard from "../../TextCard";
 import { TechnosType } from "../../../typescript/TechnosType";
 import TechnoLogo from "../../TechnoLogo";
@@ -22,7 +23,9 @@ function Project({
    };
 
    return (
-      <article
+      <motion.article
+         initial={{ opacity: 0, scale: 0 }}
+         whileInView={{ opacity: 1, scale: 1 }}
          className={indexIsEven ? "project-article" : "project-article-odd"}
       >
          <section className="project-description">
@@ -57,7 +60,7 @@ function Project({
             </div>
             <ImageCard source={picture.source} alt={picture.alt} />
          </section>
-      </article>
+      </motion.article>
    );
 }
 

@@ -1,8 +1,8 @@
 .project-article {
    display: flex;
-   animation: appear-from-bottom;
+   /* animation: appear-from-bottom;
    animation-timeline: view();
-   animation-range: cover -20% cover 45%;
+   animation-range: cover -20% cover 45%; */
 }
 
 .project-date-and-name {
@@ -61,9 +61,9 @@
 .project-article-odd {
    display: flex;
    flex-direction: row-reverse;
-   animation: appear-from-bottom;
+   /* animation: appear-from-bottom;
    animation-timeline: view();
-   animation-range: cover -20% cover 45%;
+   animation-range: cover -20% cover 45%; */
 }
 
 .project-article-odd section:first-of-type {
