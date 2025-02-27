@@ -1,6 +1,7 @@
 import "./styles.css";
 import { motion } from "motion/react";
 import Button from "../../components/Button";
+import ExpIndicator from "../../components/xpIndicator";
 
 function AboutPage() {
    const goToLinkedIn = () => {
@@ -60,10 +61,8 @@ function AboutPage() {
                   alt="Image de programmation"
                   className="third-img-about"
                />
-               <div className="xp-indicator">
-                  <p className="all-years">
-                     2+ <span className="time-marker">Ans</span>
-                  </p>
+               <div className="exp-indicator-container">
+                  <ExpIndicator />
                </div>
             </motion.div>
          </section>
