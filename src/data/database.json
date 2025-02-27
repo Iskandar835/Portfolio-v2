@@ -115,7 +115,7 @@
       {
          "id": "mmatf85t",
          "name": "Perf & SEO",
-         "story": "SEO technique pour un meilleur référencement, Amélioration de l’accessibilité et de la compatibilité cross-browser.",
+         "story": "SEO technique pour un bon référencement, amélioration de l’accessibilité et de la compatibilité cross-browser.",
          "picture": {
             "source": "/assets/top-drawing.png",
             "alt": "Image d’un trophée dessiné"
@@ -124,7 +124,7 @@
       {
          "id": "dqdqy21b",
          "name": "Maintenance",
-         "story": "Ajout de fonctionnalités sur des projets existants, Refactoring et amélioration du code pour plus de maintenabilité.",
+         "story": "Ajout de fonctionnalités sur des projets existants, refactoring et amélioration du code pour plus de maintenabilité.",
          "picture": {
             "source": "/assets/pipette-drawing.png",
             "alt": "Image d’une pipette dessinée"
@@ -166,21 +166,25 @@
    "contact": [
       {
          "id": "lkkjs88m",
+         "name": "LinkedIn",
          "href": "https://www.linkedin.com/in/sacha-vandermoeten-57124631b/",
          "class": "fa-brands fa-linkedin-in"
       },
       {
          "id": "ishga66j",
+         "name": "Email",
          "href": "mailto:sacha.web.pro@gmail.com",
          "class": "fa-regular fa-envelope"
       },
       {
          "id": "bchdg58p",
+         "name": "Discord",
          "href": "https://discordapp.com/users/1167449314218487818",
          "class": "fa-brands fa-discord"
       },
       {
          "id": "mqjat85s",
+         "name": "Github",
          "href": "https://github.com/Iskandar835",
          "class": "fa-brands fa-github"
       }
