@@ -12,6 +12,7 @@ function Project({
    date,
    title,
    href,
+   ariaLabel,
    story,
    technos,
    picture,
@@ -27,6 +28,7 @@ function Project({
          initial={{ opacity: 0, scale: 0 }}
          whileInView={{ opacity: 1, scale: 1 }}
          transition={{ duration: 0.5 }}
+         viewport={{ once: true }}
          className={indexIsEven ? "project-article" : "project-article-odd"}
       >
          <section className="project-description">
@@ -34,7 +36,12 @@ function Project({
                <p className="project-date">{isoToNiceDisplay(date)}</p>
                <h3 className="project-name">
                   {title}{" "}
-                  <a href={href} target="_blank" className="project-link">
+                  <a
+                     href={href}
+                     target="_blank"
+                     className="project-link"
+                     aria-label={ariaLabel}
+                  >
                      <i className="fa-solid fa-link"></i>
                   </a>
                </h3>

@@ -6,6 +6,7 @@ export type ProjectPropsType = {
    date: string;
    title: string;
    href: string;
+   ariaLabel: string;
    story: string;
    technos: TechnosType[];
    picture: ImagesType;
