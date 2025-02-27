@@ -16,21 +16,21 @@ function Homepage() {
       <main>
          <section className="personnal-intro">
             <motion.div
-               initial={{ opacity: 0, y: -200 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 0.6 }}
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               transition={{ duration: 1.8 }}
                className="name-container"
             >
                <img src="/assets/arrow.png" alt="Image d'une flêche" />
                <p className="name">
-                  Je suis <span className="span-color">Sacha Vandermoeten</span>
+                  Je suis <span className="span-color">Sacha</span>
                </p>
             </motion.div>
             <div className="avatar-and-text-container">
                <motion.div
                   initial={{ opacity: 0, x: -200 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.3 }}
+                  transition={{ duration: 0.35 }}
                   className="avatar-and-shadow"
                >
                   <PurpleShadow isLargeVersion={false} />
@@ -89,6 +89,7 @@ function Homepage() {
                      date={item.date}
                      title={item.name}
                      href={item.href}
+                     ariaLabel={item.name}
                      story={item.story}
                      technos={item.technos}
                      picture={item.picture}
