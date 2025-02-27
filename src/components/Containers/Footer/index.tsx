@@ -18,7 +18,12 @@ function Footer() {
          </div>
          <div className="contact-container" id="contact">
             {data.contact.map((item: ContactType) => (
-               <a key={item.id} href={item.href} target="_blank">
+               <a
+                  key={item.id}
+                  href={item.href}
+                  target="_blank"
+                  aria-label={item.name}
+               >
                   <i className={item.class}></i>
                </a>
             ))}
