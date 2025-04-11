@@ -25,24 +25,29 @@
       },
       {
          "id": "tvshd86t",
-         "date": "2025-01-03T12:00:00.744Z",
-         "name": "BEEBOX",
-         "href": "https://github.com/Iskandar835/BEEBOX",
-         "story": "Ce site vitrine permet de commander du miel en ligne. Simple et efficace, il met en avant les produits, leurs bienfaits et facilite la prise de commande depuis les réseaux sociaux. L’optimisation SEO et l’accessibilité web font partie intégrante de ce projet.",
+         "date": "2025-04-11T12:00:00.744Z",
+         "name": "LE V DE RIDO",
+         "href": "https://github.com/Iskandar835/levderido",
+         "story": "Ce site vitrine présente une troupe de théâtre, leurs spectacles et les infos pratiques pour rejoindre leurs cours. Développé avec des technologies modernes, il offre une navigation fluide, un design immersif et une optimisation SEO.",
          "picture": {
-            "source": "/assets/beebox.png",
-            "alt": "Image du projet BEEBOX"
+            "source": "/assets/levderido.png",
+            "alt": "Image du projet LEVDERIDO"
          },
          "technos": [
             {
                "id": "wtiop19s",
-               "picture": "/assets/logo-react.png",
-               "alt": "Logo de react"
+               "picture": "/assets/logo-nextjs.png",
+               "alt": "Logo de next js"
             },
             {
                "id": "aszqt13b",
-               "picture": "/assets/logo-styled-components.png",
+               "picture": "/assets/logo-ts.png",
                "alt": "Logo de styled components"
+            },
+            {
+               "id": "aszqt13b",
+               "picture": "/assets/logo-tailwind.png",
+               "alt": "Logo de tailwind css"
             }
          ]
       },
