@@ -28,6 +28,9 @@ function Footer() {
                </a>
             ))}
          </div>
+         <div className="copyright">
+            <p>&copy; {new Date().getFullYear()} sancho Inc.</p>
+         </div>
       </footer>
    );
 }
