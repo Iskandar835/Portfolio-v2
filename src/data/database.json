@@ -24,6 +24,29 @@
          ]
       },
       {
+         "id": "tljjf86d",
+         "date": "2025-04-21T12:00:00.744Z",
+         "name": "To Do List",
+         "href": "https://github.com/Iskandar835/to-do-list",
+         "story": "To Do List est une application desktop pour gérer vos tâches. Ajoutez, supprimez et validez vos activités facilement. Conçue pour une utilisation simple et efficace sur ordinateur, elle vous aide à rester organisé. Découvrez-la sans plus attendre !",
+         "picture": {
+            "source": "/assets/todolist.png",
+            "alt": "Image du projet todolist"
+         },
+         "technos": [
+            {
+               "id": "nhter80q",
+               "picture": "/assets/logo-css.png",
+               "alt": "Logo de CSS"
+            },
+            {
+               "id": "2enips36a",
+               "picture": "/assets/logo-js.png",
+               "alt": "Logo de javaScript"
+            }
+         ]
+      },
+      {
          "id": "tvshd86t",
          "date": "2025-04-11T12:00:00.744Z",
          "name": "LE V DE RIDO",
@@ -48,29 +71,6 @@
                "id": "ttqt10b",
                "picture": "/assets/logo-tailwind.png",
                "alt": "Logo de tailwind css"
-            }
-         ]
-      },
-      {
-         "id": "nbvqt85m",
-         "date": "2025-01-17T12:00:00.744Z",
-         "name": "Oh My Food",
-         "href": "https://github.com/Iskandar835/Oh-My-Food",
-         "story": "À l'origine développé en HTML et SASS, ce site permettait aux utilisateurs de visualiser des plats en ligne. J’ai réalisé une refonte avec React et SASS pour une meilleure expérience utilisateur et une navigation plus fluide et dynamique.",
-         "picture": {
-            "source": "/assets/oh-my-food.png",
-            "alt": "Image du projet Oh My Food"
-         },
-         "technos": [
-            {
-               "id": "cstzb67v",
-               "picture": "/assets/logo-react.png",
-               "alt": "Logo de react"
-            },
-            {
-               "id": "qdfcv85b",
-               "picture": "/assets/logo-sass.png",
-               "alt": "Logo de sass"
             }
          ]
       },
