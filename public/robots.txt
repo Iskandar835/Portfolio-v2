@@ -1,0 +1,6 @@
+# Fichier robots.txt : indique aux moteurs de recherche les pages à explorer ou ignorer sur ce site.
+# Ce fichier autorise l'accès aux pages principales et interdit le crawl du dossier /assets/ contenant les images.
+
+User-agent: *
+Allow: /
+Disallow: /assets/
