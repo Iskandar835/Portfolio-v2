@@ -1,29 +1,6 @@
 {
    "projects": [
       {
-         "id": "lqpei86d",
-         "date": "2024-11-28T12:00:00.744Z",
-         "name": "Portfolio-v1",
-         "href": "https://github.com/Iskandar835/Portfolio",
-         "story": "Ce portfolio est ma première vitrine en tant que développeur front-end. Il présente mes premiers projets, mes compétences et mon parcours. Une belle étape dans mon apprentissage et mon évolution dans le développement web !",
-         "picture": {
-            "source": "/assets/portfolio-v1.png",
-            "alt": "Image du projet Portfolio first version"
-         },
-         "technos": [
-            {
-               "id": "nhter80q",
-               "picture": "/assets/logo-react.png",
-               "alt": "Logo de react"
-            },
-            {
-               "id": "2enips36a",
-               "picture": "/assets/logo-styled-components.png",
-               "alt": "Logo de styled components"
-            }
-         ]
-      },
-      {
          "id": "tljjf86d",
          "date": "2025-04-21T12:00:00.744Z",
          "name": "To Do List",
@@ -76,24 +53,24 @@
       },
       {
          "id": "azqes86g",
-         "date": "2024-09-17T12:00:00.744Z",
-         "name": "Shaperz",
-         "href": "https://github.com/Iskandar835/Shaperz",
-         "story": "L’un de mes premiers sites, dédié aux passionnés de surf. Il répertorie différents modèles de planches, leurs caractéristiques et conseils pour bien choisir en fonction des conditions et du niveau. Allez y faire un tour !",
+         "date": "2025-08-17T12:00:00.744Z",
+         "name": "Pass Gen",
+         "href": "https://github.com/Iskandar835/password-generator",
+         "story": "Voici mon  générateur de mots de passe ultra sécurisé. Il utilise un algorithme très proche de celui d’Apple, sans jamais enregistrer la moindre donnée. Simple, rapide, fiable et 100 % confidentiel. Testez-le dès maintenant !",
          "picture": {
-            "source": "/assets/shaperz.png",
-            "alt": "Image du projet Shaperz"
+            "source": "/assets/pass-gen.png",
+            "alt": "Image du projet Pass Gen"
          },
          "technos": [
+            {
+               "id": "twnoa37k",
+               "picture": "/assets/logo-css.png",
+               "alt": "Logo de css"
+            },
             {
                "id": "nbhgt59z",
                "picture": "/assets/logo-js.png",
                "alt": "Logo de javaScript"
-            },
-            {
-               "id": "twnoa37k",
-               "picture": "/assets/logo-sass.png",
-               "alt": "Logo de sass"
             }
          ]
       }
